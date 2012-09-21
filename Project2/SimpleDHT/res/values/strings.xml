@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleDHT</string>
+    <string name="strButtonConnect">Connect</string>
+    <string name="strStatus">Online</string>
+    <string name="strButtonTest1">Test</string>
+    <string name="strButtonTest2">Dump</string>
+    <string name="strButtonDelete">Delete Messages</string>
+
+</resources>

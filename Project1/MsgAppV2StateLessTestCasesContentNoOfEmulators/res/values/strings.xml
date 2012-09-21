@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MsgAppV2</string>
+    <string name="strButtonConnect">Connect</string>
+    <string name="strStatus">Online</string>
+    <string name="strButtonSend">Send</string>
+    <string name="strButtonTest1">Test1</string>
+    <string name="strButtonTest2">Test2</string>
+    <string name="strButtonDelete">Delete Messages</string>
+    <string name="strNoOfDev">Enter Emulator Count</string>
+
+</resources>

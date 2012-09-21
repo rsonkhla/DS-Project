@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleDHT</string>
+    <string name="strButtonConnect">Connect</string>
+    <string name="strStatus">Online</string>
+    <string name="strButtonPut1">Put1</string>
+    <string name="strButtonPut2">Put2</string>
+    <string name="strButtonPut3">Put3</string>
+    <string name="strButtonGet">Get</string>
+    <string name="strButtonDump">Dump</string>
+    <string name="strButtonClrScrn">Clear OnlyScrn</string>
+    <string name="strButtonClrDbNScrn">Clear DbNScrn</string>
+
+</resources>

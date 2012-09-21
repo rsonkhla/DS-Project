@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/status" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"      
+        android:layout_gravity="fill_horizontal"
+        android:text="@string/strStatus" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_above="@+id/linearLayout2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonPut1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.12"
+            android:text="@string/strButtonPut1"
+            android:width="30sp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonPut2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.12"
+            android:text="@string/strButtonPut2"
+            android:width="30sp" >
+
+        </Button>
+        
+        <Button
+            android:id="@+id/buttonPut3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.12"
+            android:text="@string/strButtonPut3"
+            android:width="30sp" >
+
+        </Button>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonGet"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.12"
+            android:text="@string/strButtonGet"
+            android:width="30sp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonDump"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.12"
+            android:text="@string/strButtonDump"
+            android:width="30sp" >
+
+        </Button>
+    </LinearLayout>
+    
+	<ListView 
+        android:id="@android:id/list"
+       	android:layout_width="fill_parent"
+       	android:layout_height="fill_parent"
+       	android:layout_below="@+id/status"
+       	android:layout_above="@+id/linearLayout1"/>
+</RelativeLayout>
